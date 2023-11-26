@@ -12,11 +12,19 @@ function getJoao(){
 }
 
 function setJoao(novoValor){
-    joao = novoValor;
+    if(novoValor > 0){
+        joao = novoValor;
+    } else {
+       joao = 0;
+    }
 }
 
 function setMaria(novoValor){
-    maria = novoValor;
+    if(novoValor > 0){
+        maria = novoValor;
+    } else {
+        maria = 0;
+    }
 }
 
 
