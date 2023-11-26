@@ -1,4 +1,4 @@
-import { deJoaoParaMaria, getJoao, getMaria } from "./joaoEMaria.js";
+import { deJoaoParaMaria,deMariaParaJoao, getJoao, getMaria } from "./joaoEMaria.js";
 
 console.log('módulo main');
 
